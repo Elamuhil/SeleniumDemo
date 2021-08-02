@@ -41,5 +41,6 @@ public class LoginPage {
  public void enterSubmit()
  {
 	 driver.findElement(submit).click();
+	 System.out.println("logged successfully");
  }
 }
